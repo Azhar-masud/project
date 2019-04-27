@@ -1,0 +1,498 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#bg
+{
+    background: url(../image/bg-banner02.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.lm
+{
+    background-color: #434F65;
+    height: 65px;
+    
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    opacity: 0.7;
+}
+.nav
+{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.logo
+{
+    margin-top: 15px;
+}
+.logo h3
+{
+   text-transform: uppercase;
+    color: #fff;
+}
+.menu
+{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.menu ul{}
+.menu ul li
+{
+    list-style: none;
+    float: left;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #fff;
+}
+.menu ul li a:hover
+{
+    color: #BE9E21;
+}
+.text
+{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.text h4
+{
+    letter-spacing: 3px;
+}
+.text h1
+{
+    font-size: 45px;
+}
+.text p
+{
+    font-size: 18px;
+}
+.button
+{
+    margin-top: 60px;
+}
+.btn-1 a
+{
+    border: 1px solid #BE9E21;
+    padding:10px 30px;
+    border-radius: 20px;
+    background-color: #BE9E21;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-2 a
+{
+    border: 1px solid #BE9E21;
+    padding:10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn-2 a:hover
+{
+    background-color: #BE9E21; 
+    transition: 0.3s;
+}
+.angle
+{
+    text-align: center;
+    
+}
+.angle a i
+{
+    color: #fff;
+    margin-top: 70px;
+    
+}
+
+/* Aboout section css start */
+
+#about {
+    padding: 30px 0;
+}
+.concept
+{
+    text-align: center;
+    color: #67696C;
+    padding-bottom: 40px;
+}
+.concept img
+{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.concept p
+{
+    padding-top: 20px;
+}
+
+/* About section css end */
+
+/* service sectin css start */
+#service
+{
+    background: #F3F4F8;
+}
+.service-heading
+{
+    text-align: center;
+    padding: 80px 0px;
+}
+.service-heading h2
+{
+    font-weight: 900;
+    color: #67696C;
+}
+.service-heading p
+{
+    padding: 0px 220px;
+    font-size: 20px;
+    color: #828487;
+    padding-top:15px; 
+}
+.service-item 
+{
+    padding-bottom: 60px;
+}
+.service-item h3
+{
+    color: #67696C;
+}
+.service-item p
+{
+    color: #BBBDC0;
+    padding-top: 20px;
+}
+.service-item span
+{
+    font-size: 70px;
+    font-weight: bold;
+    color: #929396;
+}
+.service-item a
+{
+    color: #BE9E21;
+}
+/* service section css end */
+
+/* Counter section start */
+#counter
+{
+    background-image: linear-gradient(rgba(49,0,255,0.8),rgba(132,5,32,0.8)),url(../image/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+}
+.box-icon
+{
+    border:1px solid #fff;
+    height: 100px;
+    width: 100px;
+    margin:20px auto;
+    transform: rotate(45deg);
+}
+.box-icon i
+{
+    font-size: 40px;
+    margin: 25px auto;
+    transform: rotate(-45deg);
+    color: #ffc800;
+}
+.counter
+{
+    font-size: 60px;
+}
+.counter-content
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 9%;
+}
+/* Counter section end */
+
+/* work section css start*/
+#work
+{
+    margin-bottom: 50px;
+}
+.work-heading
+{
+    padding: 70px 210px;
+    text-align: center;
+}
+.work-heading h2
+{
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #67696C;
+}
+.work-heading p
+{
+    font-size: 20px;
+    color: #828487;
+    padding-top: 20px;
+}
+.work-img-img
+{
+    position: relative;
+    overflow: hidden;
+}
+.work-img-img figure
+{
+    position: relative;
+    cursor: pointer;
+}
+.work-img-img figure img
+{
+    display: block;
+    position: relative;
+    z-index: 10;
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+.work-img-img figure figcaption
+{
+    display: block;
+    position: absolute;
+    z-index: 5;
+    box-sizing: border-box;
+}
+.work-img-img img
+{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.work-img-img figure figcaption
+{
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    padding: 25px 25px;
+    text-align: center;
+    background-color: #BE9E21;
+    backface-visibility: hidden;
+    transition: all .5s;
+    color: #fff;
+}
+.work-img-img figcaption p
+{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 15px;
+}
+.work-img-img figure:hover img,figure.hover img 
+{
+    transform:rotateY(180deg);
+}
+.work-img-img figure:hover figcaption,figure.hover figcaption 
+{
+    transform:rotateY(0);
+}
+/* Testimonilal section css start */
+#testimonial
+{
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 390px;
+}
+.bg-testicolor{
+    background-color: RGBA(73, 84, 105, 0.61);
+    min-height: 390px;
+}
+.testimonial-item ul li blockquote {
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: 1px 1px 2px #333;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 80px;
+    position: relative;
+    border: 0;
+}
+.testimonial-item ul li  small {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px #333;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.bx-viewport
+{
+    height: 235px !important;
+    background-color: transparent !important;
+    border: 0px none !important;
+    box-shadow: none !important;
+}
+.testimonial-item ul li blockquote::before {
+    content: '“';
+    left: 30px;
+}
+.testimonial-item ul li blockquote::before, .testimonial-item ul li blockquote::after {
+    position: absolute;
+    font-weight: 300;
+    font-size: 3em;
+    font-family: Georgia, serif;
+    color: #ccc;
+    top: 62%;
+}
+.testimonial-item ul li blockquote::after {
+    content: '”';
+    right: 30px;
+}
+.white
+{
+    color: #fff !important;
+}
+
+/* Blog section css start */
+.blog-heading 
+{
+    padding: 50px 220px;
+}
+.blog-heading h2
+{
+    font-weight: 900;
+    color: #67696C;
+    /*letter-spacing: 2px;*/
+}
+.blog-heading p
+{
+    font-size: 20px;
+    color: #BBBDC0;
+    padding-top: 15px;
+}
+.blog-item
+{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.blog-item img
+{
+    height: 100%; 
+    width: 100%;
+    opacity: 0.8;
+}
+.blog-item img:hover
+{
+    opacity: 1;
+    transform: scale(1.05);
+    transition: .7s;
+}
+.blog-info
+{
+    margin-top: 12px;
+    min-height: 30px;
+}
+.blog-info p i
+{
+    color: #949494;
+}
+.blog-info p:first-child
+{
+    float: left;
+    color: #949494;
+}
+.blog-info p:last-child
+{
+    float: right; 
+    margin-right: 0;  
+}
+.blog-text p
+{
+    color: #949494;
+}
+.read-more {
+    color: #949494;
+    margin-top: 15px;
+    display: inline-block;
+    padding-bottom: 70px;
+}
+
+/* Contact section css start */
+#contact
+{
+    background: #495469;
+    padding: 70px 0;
+    color: #fff;
+}
+.contact-heading p
+{
+    padding: 20px 220px 30px 220px;
+    font-size: 20px;
+}
+.contact-text
+{
+    margin-top: 20px;
+}
+
+.contact-text p i
+{
+    color: #be9e21;
+    font-size: 30px;
+}
+.contact-form .form 
+{
+    background: #495469;
+    border-color: #BE9E21;
+    margin-top: 15px;
+    color: #fff;
+}
+.contact-form textarea
+{
+    background: #495469;
+    border-color: #BE9E21;
+    margin-top: 15px;
+}
+.contact-form .btn
+{
+    background: #495469;
+    border-color: #BE9E21;
+    margin-top: 15px;
+    color: #BE9E21; 
+}
+
+/* footer section css start */
+#footer
+{
+    background: #495469;
+    border-top: 1px solid #ccc;
+}
+#footer p 
+{
+    padding: 30px;
+    color: #fff;
+}
